@@ -1,5 +1,6 @@
 #include "tun.h"
 
+#include <cerrno>
 #include <cstdio>
 #include <cstring>
 
@@ -37,9 +38,23 @@ int tun_create(const char* requested_name, std::string& actual_name_out) {
     // persistent one) and, on success, writes the actual interface name
     // back into ifr.ifr_name.
     if (ioctl(fd, TUNSETIFF, &ifr) < 0) {
-        std::fprintf(stderr, "[error] TUNSETIFF failed: %m\n");
-        close(fd);
-        return -1;
+        // If the requested name is already taken (e.g. tun0 in use by
+        // another instance), fall back to a kernel-assigned name by
+        // retrying with an empty ifr_name.
+        if (errno == EBUSY && requested_name && *requested_name) {
+            struct ifreq retry_ifr {};
+            retry_ifr.ifr_flags = IFF_TUN | IFF_NO_PI;
+            if (ioctl(fd, TUNSETIFF, &retry_ifr) < 0) {
+                std::fprintf(stderr, "[error] TUNSETIFF failed: %m\n");
+                close(fd);
+                return -1;
+            }
+            ifr = retry_ifr;
+        } else {
+            std::fprintf(stderr, "[error] TUNSETIFF failed: %m\n");
+            close(fd);
+            return -1;
+        }
     }
 
     actual_name_out = ifr.ifr_name;

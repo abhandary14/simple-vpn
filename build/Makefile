@@ -179,6 +179,30 @@ src/crypto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_crypto.dir/build.make CMakeFiles/test_crypto.dir/src/crypto.cpp.s
 .PHONY : src/crypto.cpp.s
 
+src/loop.o: src/loop.cpp.o
+.PHONY : src/loop.o
+
+# target to build an object file
+src/loop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/loop.cpp.o
+.PHONY : src/loop.cpp.o
+
+src/loop.i: src/loop.cpp.i
+.PHONY : src/loop.i
+
+# target to preprocess a source file
+src/loop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/loop.cpp.i
+.PHONY : src/loop.cpp.i
+
+src/loop.s: src/loop.cpp.s
+.PHONY : src/loop.s
+
+# target to generate assembly for a file
+src/loop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/loop.cpp.s
+.PHONY : src/loop.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -289,6 +313,9 @@ help:
 	@echo "... src/crypto.o"
 	@echo "... src/crypto.i"
 	@echo "... src/crypto.s"
+	@echo "... src/loop.o"
+	@echo "... src/loop.i"
+	@echo "... src/loop.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

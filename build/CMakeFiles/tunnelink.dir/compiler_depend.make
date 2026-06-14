@@ -163,9 +163,145 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o: /home/abhandary14/Desktop/VPN1/src/cr
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h
 
+CMakeFiles/tunnelink.dir/src/loop.cpp.o: /home/abhandary14/Desktop/VPN1/src/loop.cpp \
+  /home/abhandary14/Desktop/VPN1/src/common.h \
+  /home/abhandary14/Desktop/VPN1/src/crypto.h \
+  /home/abhandary14/Desktop/VPN1/src/loop.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/c++/15/bits/version.h \
+  /usr/include/c++/15/cerrno \
+  /usr/include/c++/15/csignal \
+  /usr/include/c++/15/cstddef \
+  /usr/include/c++/15/cstdint \
+  /usr/include/c++/15/cstdio \
+  /usr/include/c++/15/cstring \
+  /usr/include/c++/15/pstl/pstl_config.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/netinet/in.h \
+  /usr/include/poll.h \
+  /usr/include/signal.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/poll.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket.h \
+  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/poll.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/socket.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
+
 CMakeFiles/tunnelink.dir/src/main.cpp.o: /home/abhandary14/Desktop/VPN1/src/main.cpp \
   /home/abhandary14/Desktop/VPN1/src/common.h \
+  /home/abhandary14/Desktop/VPN1/src/crypto.h \
+  /home/abhandary14/Desktop/VPN1/src/loop.h \
   /home/abhandary14/Desktop/VPN1/src/tun.h \
+  /home/abhandary14/Desktop/VPN1/src/udp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -216,11 +352,11 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o: /home/abhandary14/Desktop/VPN1/src/main
   /usr/include/c++/15/cerrno \
   /usr/include/c++/15/clocale \
   /usr/include/c++/15/concepts \
-  /usr/include/c++/15/csignal \
   /usr/include/c++/15/cstddef \
   /usr/include/c++/15/cstdint \
   /usr/include/c++/15/cstdio \
   /usr/include/c++/15/cstdlib \
+  /usr/include/c++/15/cstring \
   /usr/include/c++/15/cwchar \
   /usr/include/c++/15/debug/assertions.h \
   /usr/include/c++/15/debug/debug.h \
@@ -241,14 +377,16 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o: /home/abhandary14/Desktop/VPN1/src/main
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/getopt.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
-  /usr/include/signal.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
@@ -262,6 +400,7 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o: /home/abhandary14/Desktop/VPN1/src/main
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_ext.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
@@ -270,19 +409,6 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o: /home/abhandary14/Desktop/VPN1/src/main
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -301,21 +427,14 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o: /home/abhandary14/Desktop/VPN1/src/main
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -338,7 +457,6 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o: /home/abhandary14/Desktop/VPN1/src/main
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
@@ -550,6 +668,103 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o: /home/abhandary14/Desktop/VPN1/src/tun.c
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
 
+CMakeFiles/tunnelink.dir/src/udp.cpp.o: /home/abhandary14/Desktop/VPN1/src/udp.cpp \
+  /home/abhandary14/Desktop/VPN1/src/udp.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/c++/15/bits/version.h \
+  /usr/include/c++/15/cstdint \
+  /usr/include/c++/15/cstdio \
+  /usr/include/c++/15/cstring \
+  /usr/include/c++/15/pstl/pstl_config.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/netinet/in.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket.h \
+  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/socket.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h
+
 tunnelink: /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/x86_64-linux-gnu/Scrt1.o \
   /usr/lib/x86_64-linux-gnu/crti.o \
@@ -570,11 +785,15 @@ tunnelink: /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/x86_64-linux-gnu/libz.so.1 \
   /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
   CMakeFiles/tunnelink.dir/src/crypto.cpp.o \
+  CMakeFiles/tunnelink.dir/src/loop.cpp.o \
   CMakeFiles/tunnelink.dir/src/main.cpp.o \
-  CMakeFiles/tunnelink.dir/src/tun.cpp.o
+  CMakeFiles/tunnelink.dir/src/tun.cpp.o \
+  CMakeFiles/tunnelink.dir/src/udp.cpp.o
 
 
 CMakeFiles/tunnelink.dir/src/tun.cpp.o:
+
+CMakeFiles/tunnelink.dir/src/loop.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libz.so.1:
 
@@ -592,15 +811,11 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /lib64/ld-linux-x86-64.so.2:
 
+/home/abhandary14/Desktop/VPN1/src/udp.cpp:
+
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
-/usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
-
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
-
-/usr/include/string.h:
 
 /usr/include/linux/sockios.h:
 
@@ -610,8 +825,6 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /usr/include/linux/bpf_common.h:
 
-/usr/include/asm-generic/socket.h:
-
 /usr/include/asm-generic/ioctls.h:
 
 /usr/include/asm-generic/ioctl.h:
@@ -620,11 +833,43 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /home/abhandary14/Desktop/VPN1/src/tun.cpp:
 
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/lib/x86_64-linux-gnu/libm.so.6:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_ext.h:
+
+/usr/include/locale.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/15/type_traits:
+
+/usr/include/c++/15/tuple:
+
+/usr/include/c++/15/string:
+
+/usr/include/c++/15/initializer_list:
+
+/usr/include/c++/15/ext/type_traits.h:
+
+/usr/include/net/if.h:
+
+/usr/include/c++/15/ext/string_conversions.h:
+
+/usr/include/c++/15/ext/alloc_traits.h:
+
+/usr/include/c++/15/debug/debug.h:
+
+/usr/include/c++/15/cwchar:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -638,6 +883,8 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/usr/include/asm-generic/socket.h:
+
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
 /home/abhandary14/Desktop/VPN1/src/tun.h:
@@ -649,10 +896,6 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/asm/socket.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -670,7 +913,9 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/locale.h:
+/usr/include/c++/15/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
@@ -689,8 +934,6 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/c++/15/cstdio:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
@@ -754,17 +997,11 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
 /usr/include/linux/posix_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
 /usr/include/linux/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/in.h:
-
-/usr/include/linux/falloc.h:
 
 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1:
 
@@ -782,11 +1019,11 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/c++/15/bits/invoke.h:
-
 /usr/include/c++/15/new:
 
 /usr/include/linux/errno.h:
+
+/usr/include/c++/15/bits/invoke.h:
 
 /usr/include/features-time64.h:
 
@@ -812,9 +1049,9 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
-/usr/include/x86_64-linux-gnu/sys/socket.h:
+/usr/include/wchar.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+/home/abhandary14/Desktop/VPN1/src/crypto.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -834,13 +1071,11 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libzstd.so.1:
 
+/usr/include/x86_64-linux-gnu/sys/poll.h:
+
 /usr/include/c++/15/bits/std_abs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/asm/sockios.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -866,25 +1101,19 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 
 /usr/include/openssl/crypto.h:
 
-/usr/lib/x86_64-linux-gnu/libm.so.6:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
 /usr/include/c++/15/ext/numeric_traits.h:
 
 /usr/include/openssl/evp.h:
 
 /usr/include/linux/types.h:
 
-/usr/include/c++/15/ext/alloc_traits.h:
-
 /usr/include/openssl/bio.h:
 
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/openssl/bioerr.h:
-
 /usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
 
 /usr/include/openssl/bn.h:
 
@@ -897,12 +1126,6 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/openssl/rand.h:
-
-/usr/include/linux/if_tun.h:
-
-/usr/include/c++/15/cstring:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/limits.h:
 
@@ -917,8 +1140,6 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 /usr/include/c++/15/bits/stl_iterator.h:
 
 /usr/include/openssl/e_os2.h:
-
-/usr/include/c++/15/string:
 
 /usr/include/x86_64-linux-gnu/bits/openat2.h:
 
@@ -944,7 +1165,13 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
+/usr/include/c++/15/iosfwd:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
 /usr/include/openssl/stack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
@@ -964,11 +1191,15 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 
 /usr/include/c++/15/bits/exception_defines.h:
 
+/usr/include/getopt.h:
+
 /usr/include/openssl/obj_mac.h:
 
 /usr/include/c++/15/bits/predefined_ops.h:
 
 /usr/include/openssl/objects.h:
+
+/usr/include/poll.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -977,6 +1208,8 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
+
+/home/abhandary14/Desktop/VPN1/src/loop.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -1002,15 +1235,9 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
-/usr/include/net/if.h:
-
-/usr/include/c++/15/ext/string_conversions.h:
-
 /usr/include/openssl/core.h:
 
 /usr/include/c++/15/bits/functional_hash.h:
-
-/usr/include/c++/15/ext/type_traits.h:
 
 /usr/include/x86_64-linux-gnu/openssl/opensslconf.h:
 
@@ -1028,11 +1255,129 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h:
 
-/home/abhandary14/Desktop/VPN1/src/main.cpp:
+CMakeFiles/tunnelink.dir/src/udp.cpp.o:
+
+/usr/include/c++/15/string_view:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/home/abhandary14/Desktop/VPN1/src/loop.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/openssl/bioerr.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/c++/15/cerrno:
+
+/usr/include/c++/15/csignal:
+
+/usr/include/linux/if_tun.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/15/cstring:
+
+/usr/include/c++/15/cstddef:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/ioctl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/string.h:
+
+/usr/include/openssl/macros.h:
+
+/usr/include/c++/15/bits/stl_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/x86_64-linux-gnu/bits/poll.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
+
+/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
+
+/usr/include/c++/15/bits/range_access.h:
+
+/usr/include/c++/15/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/openssl/asn1err.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/ioctls.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/openssl/configuration.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/c++/15/bits/stl_algobase.h:
+
+/usr/include/c++/15/clocale:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h:
+
+/usr/include/c++/15/bits/uses_allocator_args.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/home/abhandary14/Desktop/VPN1/src/main.cpp:
+
+/home/abhandary14/Desktop/VPN1/src/udp.h:
 
 /usr/include/c++/15/backward/binders.h:
 
@@ -1060,8 +1405,6 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 
 /usr/include/c++/15/bits/exception.h:
 
-/usr/include/c++/15/initializer_list:
-
 /usr/include/c++/15/bits/hash_bytes.h:
 
 /usr/include/c++/15/bits/localefwd.h:
@@ -1074,23 +1417,7 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 
 /usr/include/c++/15/bits/uses_allocator.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
-
-/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
-
-/usr/include/c++/15/bits/range_access.h:
-
 /usr/include/c++/15/bits/refwrap.h:
-
-/usr/include/c++/15/type_traits:
-
-/usr/include/c++/15/bits/stl_algobase.h:
-
-/usr/include/c++/15/clocale:
-
-/usr/include/x86_64-linux-gnu/openssl/configuration.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libgcc_s.so:
 
@@ -1099,12 +1426,6 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 /usr/include/c++/15/bits/ptr_traits.h:
 
 /usr/include/c++/15/bits/stl_construct.h:
-
-/usr/include/openssl/macros.h:
-
-/usr/include/c++/15/bits/stl_function.h:
-
-/usr/include/c++/15/cwchar:
 
 /usr/lib/x86_64-linux-gnu/libmvec.so.1:
 
@@ -1117,85 +1438,3 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 /usr/include/c++/15/bits/string_view.tcc:
 
 /usr/include/c++/15/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h:
-
-/usr/include/c++/15/bits/uses_allocator_args.h:
-
-/usr/include/netinet/in.h:
-
-/usr/include/c++/15/cerrno:
-
-/usr/include/c++/15/csignal:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/c++/15/debug/assertions.h:
-
-/usr/include/c++/15/debug/debug.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/c++/15/iosfwd:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/15/string_view:
-
-/usr/include/c++/15/tuple:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/15/cstddef:
-
-/usr/include/errno.h:
-
-/usr/include/x86_64-linux-gnu/asm/ioctl.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/home/abhandary14/Desktop/VPN1/src/crypto.cpp:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/c++/15/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/openssl/asn1err.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/ioctls.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
