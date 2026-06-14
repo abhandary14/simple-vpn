@@ -152,6 +152,33 @@ test_crypto/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_crypto.dir/build.make CMakeFiles/test_crypto.dir/build
 .PHONY : test_crypto/fast
 
+src/crypto.o: src/crypto.cpp.o
+.PHONY : src/crypto.o
+
+# target to build an object file
+src/crypto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/crypto.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_crypto.dir/build.make CMakeFiles/test_crypto.dir/src/crypto.cpp.o
+.PHONY : src/crypto.cpp.o
+
+src/crypto.i: src/crypto.cpp.i
+.PHONY : src/crypto.i
+
+# target to preprocess a source file
+src/crypto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/crypto.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_crypto.dir/build.make CMakeFiles/test_crypto.dir/src/crypto.cpp.i
+.PHONY : src/crypto.cpp.i
+
+src/crypto.s: src/crypto.cpp.s
+.PHONY : src/crypto.s
+
+# target to generate assembly for a file
+src/crypto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/crypto.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_crypto.dir/build.make CMakeFiles/test_crypto.dir/src/crypto.cpp.s
+.PHONY : src/crypto.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -211,6 +238,9 @@ help:
 	@echo "... test"
 	@echo "... test_crypto"
 	@echo "... tunnelink"
+	@echo "... src/crypto.o"
+	@echo "... src/crypto.i"
+	@echo "... src/crypto.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

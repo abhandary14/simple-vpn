@@ -6,3 +6,12 @@ TDD.md
 
 .venv/
 
+
+# DevContext - AI coding context
+.devctx/
+
+# Build artifacts
+build/
+
+# Pre-shared secret key (FR-3.1: distribute out-of-band, not via git)
+shared.key
