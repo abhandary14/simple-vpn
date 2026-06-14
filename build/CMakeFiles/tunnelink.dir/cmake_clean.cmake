@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tunnelink.dir/src/main.cpp.o.d"
   "CMakeFiles/tunnelink.dir/src/tun.cpp.o"
   "CMakeFiles/tunnelink.dir/src/tun.cpp.o.d"
+  "CMakeFiles/tunnelink.dir/src/udp.cpp.o"
+  "CMakeFiles/tunnelink.dir/src/udp.cpp.o.d"
   "tunnelink"
   "tunnelink.pdb"
 )

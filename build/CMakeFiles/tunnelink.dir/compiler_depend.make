@@ -436,15 +436,11 @@ CMakeFiles/tunnelink.dir/src/tun.cpp.o: /home/abhandary14/Desktop/VPN1/src/tun.c
   /usr/include/linux/errno.h \
   /usr/include/linux/falloc.h \
   /usr/include/linux/filter.h \
-  /usr/include/linux/hdlc/ioctl.h \
-  /usr/include/linux/if.h \
   /usr/include/linux/if_ether.h \
   /usr/include/linux/if_tun.h \
   /usr/include/linux/ioctl.h \
-  /usr/include/linux/libc-compat.h \
   /usr/include/linux/openat2.h \
   /usr/include/linux/posix_types.h \
-  /usr/include/linux/socket.h \
   /usr/include/linux/sockios.h \
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
@@ -574,8 +570,11 @@ tunnelink: /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/x86_64-linux-gnu/libz.so.1 \
   /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
   CMakeFiles/tunnelink.dir/src/crypto.cpp.o \
-  CMakeFiles/tunnelink.dir/src/main.cpp.o
+  CMakeFiles/tunnelink.dir/src/main.cpp.o \
+  CMakeFiles/tunnelink.dir/src/tun.cpp.o
 
+
+CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libz.so.1:
 
@@ -777,8 +776,6 @@ tunnelink: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/linux/openat2.h:
 
-/usr/include/linux/libc-compat.h:
-
 /usr/include/alloca.h:
 
 /usr/include/openssl/symhacks.h:
@@ -955,8 +952,6 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 
 /usr/include/sched.h:
 
-/usr/include/linux/if.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -1051,8 +1046,6 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 
 /usr/include/c++/15/bits/cpp_type_traits.h:
 
-/usr/include/linux/hdlc/ioctl.h:
-
 /usr/include/openssl/asn1.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
@@ -1090,8 +1083,6 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 /usr/include/c++/15/bits/refwrap.h:
 
 /usr/include/c++/15/type_traits:
-
-/usr/include/linux/socket.h:
 
 /usr/include/c++/15/bits/stl_algobase.h:
 

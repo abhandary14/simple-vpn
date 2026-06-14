@@ -227,6 +227,30 @@ src/tun.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/tun.cpp.s
 .PHONY : src/tun.cpp.s
 
+src/udp.o: src/udp.cpp.o
+.PHONY : src/udp.o
+
+# target to build an object file
+src/udp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/udp.cpp.o
+.PHONY : src/udp.cpp.o
+
+src/udp.i: src/udp.cpp.i
+.PHONY : src/udp.i
+
+# target to preprocess a source file
+src/udp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/udp.cpp.i
+.PHONY : src/udp.cpp.i
+
+src/udp.s: src/udp.cpp.s
+.PHONY : src/udp.s
+
+# target to generate assembly for a file
+src/udp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/udp.cpp.s
+.PHONY : src/udp.cpp.s
+
 tests/test_crypto.o: tests/test_crypto.cpp.o
 .PHONY : tests/test_crypto.o
 
@@ -271,6 +295,9 @@ help:
 	@echo "... src/tun.o"
 	@echo "... src/tun.i"
 	@echo "... src/tun.s"
+	@echo "... src/udp.o"
+	@echo "... src/udp.i"
+	@echo "... src/udp.s"
 	@echo "... tests/test_crypto.o"
 	@echo "... tests/test_crypto.i"
 	@echo "... tests/test_crypto.s"

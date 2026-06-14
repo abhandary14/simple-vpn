@@ -5,6 +5,7 @@ tunnelink: \
   CMakeFiles/tunnelink.dir/src/main.cpp.o \
   CMakeFiles/tunnelink.dir/src/crypto.cpp.o \
   CMakeFiles/tunnelink.dir/src/tun.cpp.o \
+  CMakeFiles/tunnelink.dir/src/udp.cpp.o \
   /usr/lib/x86_64-linux-gnu/libcrypto.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -48,6 +49,8 @@ CMakeFiles/tunnelink.dir/src/main.cpp.o:
 CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 
 CMakeFiles/tunnelink.dir/src/tun.cpp.o:
+
+CMakeFiles/tunnelink.dir/src/udp.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libcrypto.so:
 
