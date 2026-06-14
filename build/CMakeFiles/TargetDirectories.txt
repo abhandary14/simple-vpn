@@ -1,5 +1,0 @@
-/home/abhandary14/Desktop/VPN1/build/CMakeFiles/tunnelink.dir
-/home/abhandary14/Desktop/VPN1/build/CMakeFiles/test_crypto.dir
-/home/abhandary14/Desktop/VPN1/build/CMakeFiles/test.dir
-/home/abhandary14/Desktop/VPN1/build/CMakeFiles/edit_cache.dir
-/home/abhandary14/Desktop/VPN1/build/CMakeFiles/rebuild_cache.dir
