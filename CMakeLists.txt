@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(OpenSSL REQUIRED)
 
-add_executable(tunnelink src/main.cpp src/crypto.cpp)
+add_executable(tunnelink src/main.cpp src/crypto.cpp src/tun.cpp)
 target_include_directories(tunnelink PRIVATE src)
 target_link_libraries(tunnelink PRIVATE OpenSSL::Crypto)
 

@@ -203,6 +203,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/tun.o: src/tun.cpp.o
+.PHONY : src/tun.o
+
+# target to build an object file
+src/tun.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/tun.cpp.o
+.PHONY : src/tun.cpp.o
+
+src/tun.i: src/tun.cpp.i
+.PHONY : src/tun.i
+
+# target to preprocess a source file
+src/tun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/tun.cpp.i
+.PHONY : src/tun.cpp.i
+
+src/tun.s: src/tun.cpp.s
+.PHONY : src/tun.s
+
+# target to generate assembly for a file
+src/tun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tunnelink.dir/build.make CMakeFiles/tunnelink.dir/src/tun.cpp.s
+.PHONY : src/tun.cpp.s
+
 tests/test_crypto.o: tests/test_crypto.cpp.o
 .PHONY : tests/test_crypto.o
 
@@ -244,6 +268,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/tun.o"
+	@echo "... src/tun.i"
+	@echo "... src/tun.s"
 	@echo "... tests/test_crypto.o"
 	@echo "... tests/test_crypto.i"
 	@echo "... tests/test_crypto.s"

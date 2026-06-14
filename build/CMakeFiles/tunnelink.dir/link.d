@@ -4,6 +4,7 @@ tunnelink: \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/tunnelink.dir/src/main.cpp.o \
   CMakeFiles/tunnelink.dir/src/crypto.cpp.o \
+  CMakeFiles/tunnelink.dir/src/tun.cpp.o \
   /usr/lib/x86_64-linux-gnu/libcrypto.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -33,6 +34,7 @@ tunnelink: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o \
   /usr/lib/x86_64-linux-gnu/libz.so.1 \
   /usr/lib/x86_64-linux-gnu/libzstd.so.1 \
+  /usr/lib/x86_64-linux-gnu/libm.so.6 \
   /lib64/ld-linux-x86-64.so.2
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o:
@@ -44,6 +46,8 @@ tunnelink: \
 CMakeFiles/tunnelink.dir/src/main.cpp.o:
 
 CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
+
+CMakeFiles/tunnelink.dir/src/tun.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libcrypto.so:
 
@@ -102,5 +106,7 @@ CMakeFiles/tunnelink.dir/src/crypto.cpp.o:
 /usr/lib/x86_64-linux-gnu/libz.so.1:
 
 /usr/lib/x86_64-linux-gnu/libzstd.so.1:
+
+/usr/lib/x86_64-linux-gnu/libm.so.6:
 
 /lib64/ld-linux-x86-64.so.2:
