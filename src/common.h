@@ -5,12 +5,12 @@
 
 // Network defaults (TDD.md section 2)
 constexpr uint16_t DEFAULT_PORT = 51820;
-constexpr const char* DEFAULT_KEY_PATH = "./shared.key";
-constexpr const char* DEFAULT_TUN_IP_SERVER = "10.0.0.1";
-constexpr const char* DEFAULT_TUN_IP_CLIENT = "10.0.0.2";
-constexpr const char* TUN_NETMASK = "255.255.255.0";
+constexpr const char *DEFAULT_KEY_PATH = "./shared.key";
+constexpr const char *DEFAULT_TUN_IP_SERVER = "10.0.0.1";
+constexpr const char *DEFAULT_TUN_IP_CLIENT = "10.0.0.2";
+constexpr const char *TUN_NETMASK = "255.255.255.0";
 constexpr int TUN_MTU = 1400;
-constexpr const char* TUN_DEVICE_NAME = "tun0";
+constexpr const char *TUN_DEVICE_NAME = "tun0";
 
 // Buffer / crypto sizing (TDD.md section 2)
 constexpr size_t BUF_SIZE = 2048;
