@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/abhandary14/Desktop/VPN1/build",
+  "command": "/usr/bin/g++  -I/home/abhandary14/Desktop/VPN1/src -g -std=gnu++17 -o CMakeFiles/tunnelink.dir/src/main.cpp.o -c /home/abhandary14/Desktop/VPN1/src/main.cpp",
+  "file": "/home/abhandary14/Desktop/VPN1/src/main.cpp",
+  "output": "CMakeFiles/tunnelink.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/abhandary14/Desktop/VPN1/build",
+  "command": "/usr/bin/g++  -I/home/abhandary14/Desktop/VPN1/src -g -std=gnu++17 -o CMakeFiles/tunnelink.dir/src/crypto.cpp.o -c /home/abhandary14/Desktop/VPN1/src/crypto.cpp",
+  "file": "/home/abhandary14/Desktop/VPN1/src/crypto.cpp",
+  "output": "CMakeFiles/tunnelink.dir/src/crypto.cpp.o"
+},
+{
+  "directory": "/home/abhandary14/Desktop/VPN1/build",
+  "command": "/usr/bin/g++  -I/home/abhandary14/Desktop/VPN1/src -g -std=gnu++17 -o CMakeFiles/tunnelink.dir/src/tun.cpp.o -c /home/abhandary14/Desktop/VPN1/src/tun.cpp",
+  "file": "/home/abhandary14/Desktop/VPN1/src/tun.cpp",
+  "output": "CMakeFiles/tunnelink.dir/src/tun.cpp.o"
+},
+{
+  "directory": "/home/abhandary14/Desktop/VPN1/build",
+  "command": "/usr/bin/g++  -I/home/abhandary14/Desktop/VPN1/src -g -std=gnu++17 -o CMakeFiles/tunnelink.dir/src/udp.cpp.o -c /home/abhandary14/Desktop/VPN1/src/udp.cpp",
+  "file": "/home/abhandary14/Desktop/VPN1/src/udp.cpp",
+  "output": "CMakeFiles/tunnelink.dir/src/udp.cpp.o"
+},
+{
+  "directory": "/home/abhandary14/Desktop/VPN1/build",
+  "command": "/usr/bin/g++  -I/home/abhandary14/Desktop/VPN1/src -g -std=gnu++17 -o CMakeFiles/tunnelink.dir/src/loop.cpp.o -c /home/abhandary14/Desktop/VPN1/src/loop.cpp",
+  "file": "/home/abhandary14/Desktop/VPN1/src/loop.cpp",
+  "output": "CMakeFiles/tunnelink.dir/src/loop.cpp.o"
+},
+{
+  "directory": "/home/abhandary14/Desktop/VPN1/build",
+  "command": "/usr/bin/g++  -I/home/abhandary14/Desktop/VPN1/src -g -std=gnu++17 -o CMakeFiles/test_crypto.dir/tests/test_crypto.cpp.o -c /home/abhandary14/Desktop/VPN1/tests/test_crypto.cpp",
+  "file": "/home/abhandary14/Desktop/VPN1/tests/test_crypto.cpp",
+  "output": "CMakeFiles/test_crypto.dir/tests/test_crypto.cpp.o"
+},
+{
+  "directory": "/home/abhandary14/Desktop/VPN1/build",
+  "command": "/usr/bin/g++  -I/home/abhandary14/Desktop/VPN1/src -g -std=gnu++17 -o CMakeFiles/test_crypto.dir/src/crypto.cpp.o -c /home/abhandary14/Desktop/VPN1/src/crypto.cpp",
+  "file": "/home/abhandary14/Desktop/VPN1/src/crypto.cpp",
+  "output": "CMakeFiles/test_crypto.dir/src/crypto.cpp.o"
+}
+]

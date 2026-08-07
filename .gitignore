@@ -1,18 +1,18 @@
-PLAN.md
-PRD.md
-TDD.md
-CLAUDE.md
+# PLAN.md
+# PRD.md
+# TDD.md
+# CLAUDE.md
 
-.env
+# .env
 
-.venv/
+# .venv/
 
 
-# DevContext - AI coding context
-.devctx/
+# # DevContext - AI coding context
+# .devctx/
 
-# Build artifacts
-build/
+# # Build artifacts
+# build/
 
-# Pre-shared secret key (FR-3.1: distribute out-of-band, not via git)
-shared.key
+# # Pre-shared secret key (FR-3.1: distribute out-of-band, not via git)
+# shared.key

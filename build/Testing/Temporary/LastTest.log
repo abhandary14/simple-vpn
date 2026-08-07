@@ -1,0 +1,21 @@
+Start testing: Jun 14 14:29 EDT
+----------------------------------------------------------
+1/1 Testing: crypto_roundtrip
+1/1 Test: crypto_roundtrip
+Command: "/home/abhandary14/Desktop/VPN1/build/test_crypto"
+Directory: /home/abhandary14/Desktop/VPN1/build
+"crypto_roundtrip" start time: Jun 14 14:29 EDT
+Output:
+----------------------------------------------------------
+test_roundtrip: PASS
+test_tamper_detection: PASS
+All crypto tests passed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"crypto_roundtrip" end time: Jun 14 14:29 EDT
+"crypto_roundtrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 14 14:29 EDT
