@@ -1,3 +1,4 @@
+#include <cerrno>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -11,6 +12,21 @@
 #include "loop.h"
 #include "tun.h"
 #include "udp.h"
+
+static bool parse_port(const char *value, uint16_t &port_out)
+{
+    if (!value || *value == '\0')
+        return false;
+
+    errno = 0;
+    char *end = nullptr;
+    unsigned long parsed = std::strtoul(value, &end, 10);
+    if (errno != 0 || *end != '\0' || parsed == 0 || parsed > 65535)
+        return false;
+
+    port_out = static_cast<uint16_t>(parsed);
+    return true;
+}
 
 static void usage(const char *prog)
 {
@@ -61,7 +77,13 @@ int main(int argc, char **argv)
             server_ip = optarg;
             break;
         case OPT_PORT:
-            port = static_cast<uint16_t>(std::atoi(optarg));
+            if (!parse_port(optarg, port))
+            {
+                std::fprintf(stderr,
+                             "[error] invalid port '%s': expected an integer from 1 to 65535\n",
+                             optarg);
+                return 1;
+            }
             break;
         case OPT_TUN_IP:
             tun_ip = optarg;

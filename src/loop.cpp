@@ -52,18 +52,25 @@ void run_loop(int tun_fd, int udp_fd, const uint8_t key[KEY_LEN], bool is_server
             if (pt_len > 0)
             {
                 uint8_t out[CRYPTO_OVERHEAD + BUF_SIZE];
-                aead_encrypt(key, tun_buf, pt_len, out, out + NONCE_LEN, out + CRYPTO_OVERHEAD);
-                size_t out_len = CRYPTO_OVERHEAD + pt_len;
-                if (!is_server)
+                if (!aead_encrypt(key, tun_buf, pt_len, out, out + NONCE_LEN,
+                                  out + CRYPTO_OVERHEAD))
                 {
-                    send(udp_fd, out, out_len, 0);
+                    std::fprintf(stderr, "[warn] dropped packet: encryption failed\n");
                 }
-                else if (peer_known)
+                else
                 {
-                    sendto(udp_fd, out, out_len, 0,
-                           reinterpret_cast<struct sockaddr *>(&peer_addr), sizeof(peer_addr));
+                    size_t out_len = CRYPTO_OVERHEAD + pt_len;
+                    if (!is_server)
+                    {
+                        send(udp_fd, out, out_len, 0);
+                    }
+                    else if (peer_known)
+                    {
+                        sendto(udp_fd, out, out_len, 0,
+                               reinterpret_cast<struct sockaddr *>(&peer_addr), sizeof(peer_addr));
+                    }
+                    // else: no known peer yet, drop (FR-2.4)
                 }
-                // else: no known peer yet, drop (FR-2.4)
             }
         }
 

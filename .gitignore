@@ -1,18 +1,24 @@
+# Local planning and AI context documents
 PLAN.md
 PRD.md
 TDD.md
 CLAUDE.md
 
+# Local environment and dependencies
 .env
-
 .venv/
 
-
-# DevContext - AI coding context
+# DevContext AI coding context
 .devctx/
 
-# Build artifacts
+# CMake build artifacts
 build/
+cmake-build-*/
+compile_commands.json
 
-# Pre-shared secret key (FR-3.1: distribute out-of-band, not via git)
+# Pre-shared secret key (FR-3.1: distribute out of band, never via Git)
 shared.key
+
+# Crash dumps
+core
+core.*
